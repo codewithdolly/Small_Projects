@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(8, 8, 8);
+}
+html{
+    width: 95%;
+    height: auto;
+    font-family: sans-serif;
+}
+.box{
+    width: 55%;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 1rem;
+    box-shadow: 4px 2px 20px rgb(212, 211, 211) ;
+    border:white 1px solid;
+}
+
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align:center;
+    color: white;
+    background-color: tomato;
+    margin-bottom: 10px;
+}
+.faq-main{
+    display: flex;
+    margin-left: 5%;
+}
+
+.faq-mini{
+    margin: 1rem;
+}
+.faq{
+    color: white;
+}
+
+summary{
+    font-size: 1.3rem;
+    border-bottom: 2px solid white;
+    padding-bottom: .8rem;
+    padding-top: 1rem;
+}
+p{
+    color: black;
+    background-color: azure;
+    padding: 2px;
+}
